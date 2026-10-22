@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <!-- Official Institute Logo Placeholder -->
+  <!-- Replace this file with your college / university official SVG logo -->
+  <defs>
+    <linearGradient id="instGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#4facfe" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="316" height="76" rx="8" fill="none" stroke="#4facfe" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <circle cx="42" cy="40" r="26" fill="none" stroke="url(#instGrad)" stroke-width="2"/>
+  <path d="M42 22 L55 30 L55 48 L42 56 L29 48 L29 30 Z" fill="none" stroke="#00f2fe" stroke-width="1.5"/>
+  <circle cx="42" cy="39" r="6" fill="#00f2fe" opacity="0.8"/>
+  <text x="82" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="1">
+    [ ADD OFFICIAL INSTITUTE LOGO ]
+  </text>
+  <text x="82" y="48" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#94a3b8">
+    Replace assets/institute-logo.svg
+  </text>
+  <text x="82" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#38bdf8">
+    College / University Crest Placeholder
+  </text>
+</svg>
