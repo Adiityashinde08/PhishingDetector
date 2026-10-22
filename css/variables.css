@@ -1,0 +1,115 @@
+/**
+ * Phishing URL Detector - Design System & CSS Custom Properties
+ * Themes: Cyber Cyan (default dark), Matrix Green, Neon Purple, and Light Clean.
+ */
+
+:root {
+  /* Default: Cyber Cyan Theme */
+  --color-bg-base: #070d19;
+  --color-bg-surface: #0e172a;
+  --color-bg-card: #131f38;
+  --color-bg-card-hover: #192849;
+  --color-border: #1e2e4a;
+  --color-border-bright: #2f4570;
+
+  --color-accent: #38bdf8;
+  --color-accent-hover: #7dd3fc;
+  --color-accent-subtle: rgba(56, 189, 248, 0.12);
+  --color-accent-glow: rgba(56, 189, 248, 0.35);
+
+  --color-text-main: #f8fafc;
+  --color-text-muted: #94a3b8;
+  --color-text-dim: #64748b;
+
+  /* Universal Security State Colors */
+  --color-safe: #22c55e;
+  --color-safe-bg: rgba(34, 197, 94, 0.12);
+  --color-safe-border: rgba(34, 197, 94, 0.35);
+
+  --color-warning: #f59e0b;
+  --color-warning-bg: rgba(245, 158, 11, 0.12);
+  --color-warning-border: rgba(245, 158, 11, 0.35);
+
+  --color-danger: #ef4444;
+  --color-danger-bg: rgba(239, 68, 68, 0.12);
+  --color-danger-border: rgba(239, 68, 68, 0.35);
+
+  /* Layout & Geometry */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 9999px;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 4px 14px 0 rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.45);
+  --shadow-glow: 0 0 20px var(--color-accent-glow);
+
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Cascadia Code", "Fira Code", Consolas, "Courier New", monospace;
+}
+
+/* Matrix Green Theme */
+[data-theme="matrix-green"] {
+  --color-bg-base: #050d07;
+  --color-bg-surface: #0a170f;
+  --color-bg-card: #0f2417;
+  --color-bg-card-hover: #153320;
+  --color-border: #1a4328;
+  --color-border-bright: #235c36;
+
+  --color-accent: #00ff66;
+  --color-accent-hover: #66ff99;
+  --color-accent-subtle: rgba(0, 255, 102, 0.12);
+  --color-accent-glow: rgba(0, 255, 102, 0.35);
+
+  --color-text-main: #f0fdf4;
+  --color-text-muted: #86efac;
+  --color-text-dim: #4ade80;
+}
+
+/* Neon Purple Theme */
+[data-theme="neon-purple"] {
+  --color-bg-base: #0b0716;
+  --color-bg-surface: #140d24;
+  --color-bg-card: #1f1438;
+  --color-bg-card-hover: #2b1b4d;
+  --color-border: #382463;
+  --color-border-bright: #52348f;
+
+  --color-accent: #c084fc;
+  --color-accent-hover: #e9d5ff;
+  --color-accent-subtle: rgba(192, 132, 252, 0.12);
+  --color-accent-glow: rgba(192, 132, 252, 0.35);
+
+  --color-text-main: #faf5ff;
+  --color-text-muted: #d8b4fe;
+  --color-text-dim: #a855f7;
+}
+
+/* Light Clean Theme */
+[data-theme="light-clean"] {
+  --color-bg-base: #f8fafc;
+  --color-bg-surface: #ffffff;
+  --color-bg-card: #ffffff;
+  --color-bg-card-hover: #f1f5f9;
+  --color-border: #e2e8f0;
+  --color-border-bright: #cbd5e1;
+
+  --color-accent: #0284c7;
+  --color-accent-hover: #0369a1;
+  --color-accent-subtle: rgba(2, 132, 199, 0.08);
+  --color-accent-glow: rgba(2, 132, 199, 0.2);
+
+  --color-text-main: #0f172a;
+  --color-text-muted: #475569;
+  --color-text-dim: #64748b;
+
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
